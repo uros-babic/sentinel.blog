@@ -24,6 +24,7 @@ jobs:
       resourceGroupName: 'sentinel-rg'
       workspaceName: 'loganalytics1'
       workspaceId: 'a416424f-528d-4ee7-a360-9b7bec9a6fa0'
+      subscription ID: '74c5f87b-c853-4d0f-8ec5-c8cc00ca8761'
       directory: '${{ github.workspace }}'
       cloudEnv: 'AzureCloud'
       contentTypes: 'Workbook'
@@ -91,4 +92,5 @@ jobs:
       with:
         azPSVersion: 'latest'
         inlineScript: |
+
           ${{ github.workspace }}//.github/workflows/azure-sentinel-deploy-f002f573-1291-4d6f-ac60-83bdc4e97995.ps1
