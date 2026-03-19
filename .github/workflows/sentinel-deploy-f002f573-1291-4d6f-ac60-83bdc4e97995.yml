@@ -26,7 +26,7 @@ jobs:
       workspaceId: 'a416424f-528d-4ee7-a360-9b7bec9a6fa0'
       directory: '${{ github.workspace }}'
       cloudEnv: 'AzureCloud'
-      contentTypes: 'AutomationRule'
+      contentTypes: 'AutomationRule,Workbook'
       branch: 'main'
       sourceControlId: 'f002f573-1291-4d6f-ac60-83bdc4e97995'
       rootDirectory: '${{ github.workspace }}'
